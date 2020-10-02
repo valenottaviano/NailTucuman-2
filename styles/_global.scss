@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+body,
+button,
+textarea {
+  font-family: "Nunito", sans-serif;
+}
+a,
+li {
+  list-style-type: none;
+  text-decoration: none;
+  color: $gray;
+}
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: $gray;
+}
+h2 {
+  font-size: 2.3rem;
+  color: black;
+}
+h3 {
+  font-size: 1.5rem;
+  color: $gray;
+  font-weight: 400;
+}
+h4,
+a,
+li,
+p {
+  font-size: 1.2rem;
+}
+img,
+svg,
+i,
+.hero-image {
+  pointer-events: none;
+}
