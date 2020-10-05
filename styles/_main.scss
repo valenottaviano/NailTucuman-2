@@ -16,7 +16,7 @@
   }
   .header-container {
     width: 80%;
-    height: 7vh;
+    height: 11vh;
     margin: auto;
     nav {
       display: flex;
@@ -51,7 +51,7 @@
 #hero {
   .hero-container {
     width: 100%;
-    height: 59vh;
+    height: 55vh;
     img {
       height: 100%;
       width: 100%;
@@ -88,13 +88,16 @@
   }
 }
 
-#producto-estrella {
+#producto-estrella,
+#instagram-posts {
+  padding: 3rem 0rem;
   min-height: 80vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
   .productos-container {
     display: flex;
     width: 80%;
@@ -113,10 +116,111 @@
         width: 200px;
         margin-bottom: 1rem;
       }
+    }
+  }
+  h2 {
+    margin-bottom: 2rem;
+    span {
+      color: $secundary;
+    }
+  }
+}
+#instagram-posts {
+  .productos-container {
+    .producto-card {
       a {
         color: $secundary;
-        font-weight: 600;
       }
     }
   }
+}
+#producto-estrella {
+  .productos-container {
+    .producto-card {
+      a {
+        color: $primary;
+      }
+    }
+  }
+}
+#gradient-banner {
+  background: linear-gradient(90.11deg, #d53444 24.54%, #f18f01 78.09%);
+  display: flex;
+  min-height: 30vh;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  a {
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #d54c34;
+  }
+  svg {
+    max-height: 50px;
+  }
+}
+
+#subscription-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 30vh;
+  flex-direction: column;
+  background: $light-gray;
+  padding: 2rem;
+  h3 {
+    color: black;
+    font-weight: 600;
+  }
+  a {
+    margin-top: 2rem;
+    background-color: $primary;
+    color: white;
+    padding: 0.8rem 3rem;
+  }
+}
+
+footer {
+  background: $gray;
+  color: white;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  .sections-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50vh;
+    ul {
+      flex: 1;
+      margin: 2rem;
+    }
+  }
+  li,
+  h3 {
+    color: white;
+  }
+  h3 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+}
+.footer-container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  span {
+    color: $light-gray;
+  }
+}
+.disclaimer {
+  text-align: center;
 }

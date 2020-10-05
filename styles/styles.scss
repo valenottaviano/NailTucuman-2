@@ -1,6 +1,55 @@
 $gray: rgb(99, 99, 99);
+$light-gray: #ededed;
 $primary: #d53444;
 $secundary: #e65925;
 
 @import "global";
 @import "main";
+
+$breakpoint-big: 1024px;
+@media (max-width: $breakpoint-big) {
+  .sub-section-container {
+    width: 100%;
+  }
+  .bar {
+    display: none;
+  }
+  footer {
+    .sections-container {
+      flex-direction: column;
+      text-align: center;
+      li {
+        color: $light-gray;
+      }
+    }
+    .disclaimer {
+      margin-bottom: 3rem;
+    }
+  }
+}
+$breakpoint-medium: 700px;
+@media (max-width: $breakpoint-medium) {
+  .banner {
+    span,
+    a {
+      font-size: 0.8rem;
+    }
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .sub-section-container {
+    flex-direction: column;
+  }
+  #gradient-banner {
+    min-height: 50vh;
+    flex-direction: column;
+    svg {
+      margin: 2rem;
+    }
+    h2 {
+      margin: 0rem 2rem;
+      margin-bottom: 3rem;
+    }
+  }
+}
