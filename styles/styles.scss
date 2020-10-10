@@ -29,6 +29,10 @@ $breakpoint-big: 1024px;
 }
 $breakpoint-medium: 700px;
 @media (max-width: $breakpoint-medium) {
+  .nav-links {
+    width: 100%;
+  }
+
   .banner {
     span,
     a {
@@ -41,7 +45,7 @@ $breakpoint-medium: 700px;
   .sub-section-container {
     flex-direction: column;
     .sub-section {
-      width: 70%;
+      width: 100%;
     }
   }
   #gradient-banner {
@@ -53,6 +57,9 @@ $breakpoint-medium: 700px;
     h2 {
       margin: 0rem 2rem;
       margin-bottom: 3rem;
+    }
+    h3 {
+      margin: 0rem 2rem;
     }
   }
 }

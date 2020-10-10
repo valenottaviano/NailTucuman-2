@@ -55,6 +55,46 @@ i,
   pointer-events: none;
 }
 
+.nav-links-container {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.329);
+}
+
+.nav-links-container i {
+  font-size: 2rem;
+  color: #636363;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 2;
+}
+
+.nav-links {
+  width: 40%;
+  min-height: 100vh;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+  z-index: 1;
+}
+
 .main-head {
   display: block;
 }
@@ -164,6 +204,19 @@ i,
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#hero .hero-container h3 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 .sub-section-container {
@@ -310,6 +363,12 @@ i,
 }
 
 #gradient-banner h2 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+#gradient-banner h3 {
   color: white;
   font-size: 1.5rem;
   margin-bottom: 3rem;
@@ -475,6 +534,9 @@ footer h3 {
 }
 
 @media (max-width: 700px) {
+  .nav-links {
+    width: 100%;
+  }
   .banner span,
   .banner a {
     font-size: 0.8rem;
@@ -489,7 +551,7 @@ footer h3 {
             flex-direction: column;
   }
   .sub-section-container .sub-section {
-    width: 70%;
+    width: 100%;
   }
   #gradient-banner {
     min-height: 50vh;
@@ -504,6 +566,9 @@ footer h3 {
   #gradient-banner h2 {
     margin: 0rem 2rem;
     margin-bottom: 3rem;
+  }
+  #gradient-banner h3 {
+    margin: 0rem 2rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
