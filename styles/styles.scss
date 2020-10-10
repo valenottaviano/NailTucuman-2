@@ -40,6 +40,9 @@ $breakpoint-medium: 700px;
   }
   .sub-section-container {
     flex-direction: column;
+    .sub-section {
+      width: 70%;
+    }
   }
   #gradient-banner {
     min-height: 50vh;

@@ -122,13 +122,32 @@ i,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 2rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
+.main-head .header-container nav .nail-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .main-head .header-container nav .nail-logo img {
   height: 60%;
+}
+
+.main-head .header-container nav .burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-head .header-container nav .burger i {
@@ -397,6 +416,42 @@ footer h3 {
   text-align: center;
 }
 
+.desc-envios {
+  min-height: 30vh;
+  padding: 2rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ededed;
+}
+
+.desc-envios div {
+  text-align: center;
+  width: 80%;
+}
+
+.desc-envios h3 {
+  margin-top: 2rem;
+}
+
+.medios-pago h3 {
+  width: 75%;
+  margin: auto;
+  color: black;
+  margin-top: 2rem;
+  font-weight: 800;
+}
+
 @media (max-width: 1024px) {
   .sub-section-container {
     width: 100%;
@@ -432,6 +487,9 @@ footer h3 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .sub-section-container .sub-section {
+    width: 70%;
   }
   #gradient-banner {
     min-height: 50vh;

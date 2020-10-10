@@ -36,13 +36,22 @@
       div {
         height: 100%;
         display: flex;
+        width: 2rem;
         align-items: center;
       }
-      .nail-logo img {
-        height: 60%;
+      .nail-logo {
+        display: flex;
+        justify-content: center;
+        img {
+          height: 60%;
+        }
       }
-      .burger i {
-        font-size: 1.1rem;
+      .burger {
+        display: flex;
+        justify-content: center;
+        i {
+          font-size: 1.1rem;
+        }
       }
     }
   }
@@ -223,4 +232,28 @@ footer {
 }
 .disclaimer {
   text-align: center;
+}
+
+.desc-envios {
+  min-height: 30vh;
+  padding: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $light-gray;
+  div {
+    text-align: center;
+    width: 80%;
+  }
+  h3 {
+    margin-top: 2rem;
+  }
+}
+.medios-pago h3 {
+  width: 75%;
+  margin: auto;
+  color: black;
+  margin-top: 2rem;
+  font-weight: 800;
 }
