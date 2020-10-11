@@ -541,7 +541,8 @@ footer .sections-container ul {
 }
 
 footer li,
-footer h3 {
+footer h3,
+footer a {
   color: white;
 }
 
