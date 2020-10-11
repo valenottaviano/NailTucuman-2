@@ -55,6 +55,10 @@ i,
   pointer-events: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .nav-links-container {
   opacity: 0;
   pointer-events: none;
