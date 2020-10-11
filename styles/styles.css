@@ -207,8 +207,21 @@ body {
           justify-content: center;
 }
 
-.main-head .header-container nav .nail-logo img {
+.main-head .header-container nav .nail-logo a {
   height: 60%;
+}
+
+.main-head .header-container nav .shop-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-head .header-container nav .shop-logo a {
+  height: 30%;
 }
 
 .main-head .header-container nav .burger {
@@ -222,7 +235,7 @@ body {
 }
 
 .main-head .header-container nav .burger i {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 #hero .hero-container {

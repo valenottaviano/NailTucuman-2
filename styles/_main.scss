@@ -95,8 +95,15 @@ body {
       .nail-logo {
         display: flex;
         justify-content: center;
-        img {
+        a {
           height: 60%;
+        }
+      }
+      .shop-logo {
+        display: flex;
+        justify-content: center;
+        a {
+          height: 30%;
         }
       }
       .burger {
@@ -104,7 +111,7 @@ body {
         justify-content: center;
         cursor: pointer;
         i {
-          font-size: 1.1rem;
+          font-size: 1.5rem;
         }
       }
     }
