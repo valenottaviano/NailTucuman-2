@@ -134,7 +134,7 @@ body {
       text-align: center;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -100%);
       color: white;
       font-size: 3rem;
       font-weight: 800;
@@ -268,8 +268,9 @@ body {
   background: $light-gray;
   padding: 2rem;
   h3 {
-    color: black;
+    color: rgb(36, 36, 36);
     font-weight: 600;
+    width: 80%;
   }
   a {
     margin-top: 2rem;
@@ -358,4 +359,82 @@ footer {
   color: black;
   margin-top: 2rem;
   font-weight: 800;
+}
+
+#cards {
+  .cards-container {
+    min-height: 80vh;
+    padding: 2rem 0rem;
+    width: 70%;
+    margin: auto;
+    min-width: 33.3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 50vh;
+      margin: 2rem;
+      flex: 1;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0px 0px 36px -7px rgba(0, 0, 0, 0.28);
+      border-radius: 39px;
+      flex: 1 1 20rem;
+      h3 {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+#buy {
+  min-height: 80vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .ilu-container {
+    height: 80%;
+    svg {
+      width: 100%;
+    }
+  }
+  div {
+    flex: 1;
+  }
+  .text-container {
+    margin-left: 3rem;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    h3 {
+      color: black;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+    }
+    span {
+      color: rgb(75, 75, 75);
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    strike {
+      color: rgb(168, 168, 168);
+    }
+    a {
+      background-color: $primary;
+      color: white;
+      padding: 0.8rem 3rem;
+      margin: 2rem 0rem;
+    }
+  }
 }

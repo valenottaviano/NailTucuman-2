@@ -26,6 +26,11 @@ $breakpoint-big: 1024px;
       margin-bottom: 3rem;
     }
   }
+  #cards {
+    .cards-container {
+      width: 90%;
+    }
+  }
 }
 $breakpoint-medium: 700px;
 @media (max-width: $breakpoint-medium) {
@@ -60,6 +65,30 @@ $breakpoint-medium: 700px;
     }
     h3 {
       margin: 0rem 2rem;
+    }
+  }
+  #cards {
+    .cards-container {
+      width: 90%;
+      .card {
+        h3 {
+          font-size: 1.5rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  #buy {
+    flex-direction: column;
+    .ilu-container {
+      margin-bottom: 5rem;
+    }
+    .text-container {
+      margin: unset;
+      align-items: center;
+      text-align: center;
     }
   }
 }
