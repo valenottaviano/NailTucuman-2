@@ -329,8 +329,16 @@ footer {
   width: 80%;
   margin: auto;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   span {
     color: $light-gray;
+  }
+  svg {
+    height: 100px;
+    margin: 2rem;
   }
 }
 .disclaimer {
