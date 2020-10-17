@@ -732,6 +732,16 @@ footer h3 {
   margin: 2rem 0rem;
 }
 
+#terminos {
+  width: 90%;
+  margin: auto;
+}
+
+#terminos h3,
+#terminos h2 {
+  margin-top: 2rem;
+}
+
 @media (max-width: 1024px) {
   .sub-section-container {
     width: 100%;
