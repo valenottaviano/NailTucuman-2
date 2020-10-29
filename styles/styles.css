@@ -760,6 +760,10 @@ footer h3 {
   margin-top: 2rem;
 }
 
+.eapps-link {
+  opacity: 0 !important;
+}
+
 @media (max-width: 1024px) {
   .sub-section-container {
     width: 100%;
